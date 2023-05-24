@@ -1,0 +1,5 @@
+
+
+langues = {"Catalan":"ca","Chinese":"zh","Croatian":"hr","Danish":"da","Dutch":"nl","English":"en","Finnish":"fi","French":"fr","German":"de","Greek":"el","Italian":"it","Japanese":"ja","Korean":"ko","Lithuanian":"lt","Macedonian":"mk","Polish":"pl","Portuguese":"pt","Romanian":"ro","Russian":"ru","Spanish":"es","Swedish":"sv","Ukrainian":"uk","Afrikaans":"af","Albanian":"sq","Amharic":"am","AncientGreek":"grc","Arabic":"ar","Armenian":"hy","Azerbaijani":"az","Basque":"eu","Bengali":"bn","Bulgarian":"bg","Czech":"cs","Estonian":"et","Gujarati":"gu","Hebrew":"he","Hindi":"hi","Hungarian":"hu","Icelandic":"is","Indonesian":"id","Irish":"ga","Kannada":"kn","Kyrgyz":"ky","Latin":"la","Latvian":"lv","Ligurian":"lij","LowerSorbian":"dsb","Luganda":"lg","Luxembourgish":"lb","Malayalam":"ml","Marathi":"mr","Nepali":"ne","Persian":"fa","Sanskrit":"sa","Serbian":"sr","Setswana":"tn","Sinhala":"si","Slovak":"sk","Slovenian":"sl","Tagalog":"tl","Tamil":"ta","Tatar":"tt","Telugu":"te","Thai":"th","Tigrinya":"ti","Turkish":"tr","UpperSorbian":"hsb","Urdu":"ur","Vietnamese":"vi","Yoruba":"yo"}
+
+
