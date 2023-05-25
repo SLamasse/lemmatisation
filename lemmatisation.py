@@ -1,5 +1,6 @@
 import spacy_udpipe
 import fonctions
+import re
 import pandas as pd
 
 
@@ -29,10 +30,21 @@ try :
     texte = f.read() 
     doc = nlp(texte)
     toks = list()
+    lem = list()
     for token in doc:
         toks.append([token.text, token.lemma_, token.pos_, token.dep_])
+        lem.append(token.lemma_)
+        
     res = pd.DataFrame(toks, columns=['Forme', 'Lemme','POS', 'dep'])
     res.to_csv("resultat.csv", sep=";") 
+    res_lem = " ".join(lem)
+    res_lem = re.sub(r"\*\s+\*\s+\*\s\*\s", r"\n**** ", res_lem)    
+    
+    outnom = fichier.split(".")[0] + "_lem.txt"
+    output = open(outnom, "w")
+    output.write(res_lem)
+    output.close()
+    
 except FileNotFoundError:
     print('Sorry the file we\'re looking for doesn\' exist')
     exit()
